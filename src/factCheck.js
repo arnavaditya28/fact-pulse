@@ -92,7 +92,8 @@ function scoreSources(sources) {
       contradicting: sources.length - supporting.length,
       diversity: unique >= 3 ? 20 : unique >= 2 ? 10 : 0,
       freshness: result.freshnessScore,
-      singleSource: sources.length === 1,
+      // evaluate.js only sees the supporting sources, so the penalty follows them
+      singleSource: supporting.length === 1,
       ai: result.aiAdjustment
     }
   };

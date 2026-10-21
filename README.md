@@ -7,6 +7,8 @@
 > "Why that score?"
 > "None of the three sources I found back the claim, and only supporting sources earn points, so it stays at 0…"
 
+![Fact Pulse answering "is the Great Wall of China visible from space?" with the MCP trace alongside](docs/gallery/03-myth-why-that-score.png)
+
 Fact Pulse is a **self-hosted MCP server (spec 2025-11-25, Streamable HTTP)** and a matching **Agent Skill** for the Alexa+ track of *Build, Ship, Shape*. It puts the [Veridex](https://getveridex.vercel.app) reliability engine behind a voice. Veridex scores claims 0–100 from sources people attach. Fact Pulse adds what voice needs: it **finds the sources itself**, labels them, and answers in two spoken sentences, with follow-ups.
 
 A **simulated Alexa+ experience** (an Echo Show-style web app with real speech in and out) drives the MCP server over JSON-RPC and shows every tool call live.
@@ -56,6 +58,7 @@ npm start
 ```
 
 - Simulator: http://localhost:3002 (voice input needs Chrome or Edge; typing works everywhere)
+- Scripted demo: http://localhost:3002/?demo (click **▶ Start demo**; see [docs/DEMO-SCRIPT.md](docs/DEMO-SCRIPT.md))
 - MCP endpoint: http://localhost:3002/mcp
 - Health: http://localhost:3002/health
 

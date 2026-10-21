@@ -337,6 +337,50 @@ $("samples").replaceChildren(...SAMPLES.map(text => {
   return b;
 }));
 
+/* ---------- demo mode (?demo): a scripted conversation for recording ---------- */
+const DEMO_SCRIPT = [
+  "Alexa, is it true that the Great Wall of China is visible from space?",
+  "Why that score?",
+  "Is it true that the Eiffel Tower grows taller in summer?",
+  "What are the sources?",
+  "Pineapple is the best pizza topping",
+  "What did I check earlier?"
+];
+const pause = ms => new Promise(r => setTimeout(r, ms));
+
+// Shows the utterance appearing word by word, as speech recognition would.
+async function speakAsUser(text) {
+  show("viewListening", "listening");
+  setFollowups([]);
+  const words = text.split(" ");
+  for (let i = 1; i <= words.length; i++) {
+    $("heardText").textContent = `“${words.slice(0, i).join(" ")}”`;
+    await pause(170);
+  }
+  await pause(500);
+}
+
+async function runDemo() {
+  document.body.classList.add("demo-running");
+  for (const line of DEMO_SCRIPT) {
+    await speakAsUser(line);
+    await handle(line);
+    await pause(1800);
+  }
+  document.body.classList.remove("demo-running");
+}
+
+if (new URLSearchParams(location.search).has("demo")) {
+  document.body.classList.add("demo");
+  const start = document.createElement("button");
+  start.className = "demo-start";
+  start.type = "button";
+  start.textContent = "▶ Start demo";
+  // Speech output needs a user gesture, so the demo starts on a click.
+  start.addEventListener("click", () => { start.remove(); runDemo(); });
+  document.body.append(start);
+}
+
 /* ---------- misc ---------- */
 function tick() {
   $("clock").textContent = new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });

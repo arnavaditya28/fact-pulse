@@ -164,6 +164,15 @@ code { font-family: var(--mono); font-size: .9em; }
 }
 .samples button:hover { border-color: var(--accent); color: var(--text); }
 
+/* ---------- demo mode ---------- */
+body.demo .samples, body.demo .mic-hint { display: none; }
+.demo-start {
+  position: fixed; right: 24px; bottom: 24px; z-index: 10; border: 0; cursor: pointer;
+  background: linear-gradient(140deg, var(--accent), var(--accent-2)); color: #fff;
+  font: inherit; font-weight: 600; padding: 12px 20px; border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(26,124,255,.35);
+}
+
 /* ---------- trace ---------- */
 .trace-col { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; align-self: start; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow: auto; }
 @media (max-width: 1000px) { .trace-col { position: static; max-height: none; } }

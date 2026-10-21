@@ -84,6 +84,15 @@ test("explain and sources speech read naturally", () => {
   assert.match(sourcesSpeech(check), /^Top sources: /);
 });
 
+test("explain adds up when one supporting source faces several contradictions", () => {
+  const check = run([src("media", "supports"), src("official", "contradicts"), src("document", "contradicts"), src("media", "contradicts")]);
+  // 25 - 10 single source + AI (8 - 45 = -37, capped -30) = -15 -> 0
+  assert.strictEqual(check.score, 0);
+  assert.strictEqual(explainSpeech(check),
+    "One news report added 25. Only one source backs it, so 10 came off for no corroboration. " +
+    "The evidence check took off 30 because three sources contradict it. That's below zero, so it stays at 0.");
+});
+
 test("explain says when the total ran past 100", () => {
   const check = run([src("official", "supports"), src("document", "supports"), src("media", "supports")]);
   assert.strictEqual(check.score, 100);

@@ -103,7 +103,7 @@ function explainSpeech(check) {
 
   if (parts.diversity) lines.push(`Having different kinds of sources added ${parts.diversity}.`);
   if (parts.freshness) lines.push(`Recent coverage added ${parts.freshness}.`);
-  if (parts.singleSource) lines.push("Only one source, so 10 came off for no corroboration.");
+  if (parts.singleSource) lines.push("Only one source backs it, so 10 came off for no corroboration.");
   if (parts.ai > 0 && parts.contradicting) {
     lines.push(`The evidence check added ${parts.ai}: support outweighs the ${count(parts.contradicting)} ${parts.contradicting === 1 ? "source" : "sources"} against it.`);
   } else if (parts.ai > 0) {
