@@ -20,15 +20,16 @@ function modelChain() {
 
 /**
  * @param {object} body     generateContent request body
- * @param {object} options  { signal, deadline } deadline = epoch ms to stop trying more models
+ * @param {object} options  { signal, deadline, skip } deadline = epoch ms to stop trying
+ *                          more models; skip = models not to try (e.g. one that already answered badly)
  * @returns {Promise<{ok:boolean, model?:string, data?:object, error?:string}>}
  */
-async function generate(body, { signal, deadline = Infinity } = {}) {
+async function generate(body, { signal, deadline = Infinity, skip = [] } = {}) {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) return { ok: false, error: "GEMINI_API_KEY is not set" };
 
   const errors = [];
-  for (const model of modelChain()) {
+  for (const model of modelChain().filter(m => !skip.includes(m))) {
     if (Date.now() > deadline || signal?.aborted) break;
     const attemptMs = Math.max(1000, Math.min(PER_MODEL_TIMEOUT_MS, deadline - Date.now()));
     const attempt = AbortSignal.timeout(attemptMs);

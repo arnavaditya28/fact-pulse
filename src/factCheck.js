@@ -173,7 +173,10 @@ async function runCheck(record) {
   try {
     const outcome = await research(record.claim);
     const done = buildResult(record, outcome);
-    if (outcome.mode === "live" && done.status === "done") {
+    // A checkable claim with no sources may be a search miss, so it is not
+    // cached: the next ask searches again instead of repeating "nothing found".
+    const emptyMiss = done.checkable && !done.sources.length;
+    if (outcome.mode === "live" && done.status === "done" && !emptyMiss) {
       store.put({ ...done, id: `cache:${cacheKey(record.claim)}`, listener: "__cache__" });
       if (process.env.SAVE_SNAPSHOTS === "1") saveSnapshot(record.claim, { ...outcome.found });
     }
@@ -206,12 +209,16 @@ async function checkClaim(rawText, { listener = "guest", budgetMs = Number(proce
   }
 
   const cached = store.get(`cache:${cacheKey(claim)}`);
-  if (cached && Date.now() - cached.finishedAt < CACHE_TTL_MS) {
+  const usable = cached && !(cached.checkable && !(cached.sources || []).length);
+  if (usable && Date.now() - cached.finishedAt < CACHE_TTL_MS) {
     return store.put({ ...cached, ...record, status: "done", fromCache: true, latencyMs: Date.now() - record.startedAt, finishedAt: Date.now() });
   }
 
   store.put(record);
   const work = runCheck(record);
+  // On Vercel, keep the function alive to finish a check that outruns the
+  // voice budget; elsewhere this is a no-op.
+  try { require("@vercel/functions").waitUntil(work); } catch { /* not on Vercel */ }
   const timeout = new Promise(resolve => setTimeout(() => resolve(null), budgetMs));
   const finished = await Promise.race([work, timeout]);
   return finished || { ...record, speech: PENDING_SPEECH };

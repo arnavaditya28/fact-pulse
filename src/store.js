@@ -6,10 +6,15 @@
  */
 
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 const crypto = require("crypto");
 
-const FILE = path.join(__dirname, "..", "data", "checks.json");
+// Serverless hosts (Vercel) only allow writes under the temp directory, and
+// it lasts as long as the warm instance does.
+const FILE = process.env.VERCEL
+  ? path.join(os.tmpdir(), "fact-pulse-checks.json")
+  : path.join(__dirname, "..", "data", "checks.json");
 const MAX_CHECKS = 500;
 
 let checks = new Map();

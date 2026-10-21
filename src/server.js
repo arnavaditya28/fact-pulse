@@ -12,6 +12,9 @@ const store = require("./store");
 
 const app = express();
 app.disable("x-powered-by");
+// Behind Vercel's (or any) proxy, req.ip must come from X-Forwarded-For, or
+// every visitor would share one rate-limit bucket.
+app.set("trust proxy", 1);
 app.use(express.json({ limit: "20kb" }));
 app.use(express.static(path.join(__dirname, "..", "public")));
 

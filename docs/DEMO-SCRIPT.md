@@ -11,7 +11,7 @@ Lead with the voice exchange, because that is the product.
    npm start
    ```
 
-2. Open **Chrome or Edge** at `http://localhost:3002/?demo`, full screen (F11), with the zoom at 110–125% so the text is readable on YouTube.
+2. Open **Chrome or Edge** at `http://localhost:3002/?demo` (or the live site, `https://fact-pulse-rho.vercel.app/?demo`, which takes about 100 s per run), full screen (F11), with the zoom at 110–125% so the text is readable on YouTube.
    Do one practice run with **▶ Start demo**, then reload the page. This also fills the cache for 6 hours, so the recorded run answers instantly. To show real latency (about 4 s) instead, skip the practice run.
 3. Turn your system volume up. The answers are spoken by the browser and must be in the recording.
 4. Have a terminal ready in the `fact-pulse` folder, with a large font.

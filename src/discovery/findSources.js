@@ -133,21 +133,41 @@ function finish(parsed, sources, extra) {
   };
 }
 
+const MIN_RESULTS = 3;
+
 async function viaSearchApi(claimText, { signal, deadline }) {
-  const results = await searchWeb(claimText, { signal, maxResults: 10 });
+  let results = await searchWeb(claimText, { signal, maxResults: 10 });
+
+  // A thin first search (seen live: a single hit) would end as "no sources";
+  // one more query aimed at fact-checks usually finds the coverage.
+  if (results.length < MIN_RESULTS) {
+    const more = await searchWeb(`${claimText} fact check`, { signal, maxResults: 10 }).catch(() => []);
+    const seen = new Set(results.map(r => r.domain));
+    results = results.concat(more.filter(r => !seen.has(r.domain)));
+  }
 
   const listing = results.map((r, i) =>
     `[${i + 1}] ${r.title}\nsite: ${r.domain}${r.published ? ` | published ${r.published.toISOString().slice(0, 10)}` : ""}\n${r.snippet}`
   ).join("\n\n");
 
-  const g = await generate({
+  const body = {
     system_instruction: { parts: [{ text: JUDGE_PROMPT }] },
     contents: [{ role: "user", parts: [{ text: `CLAIM: ${claimText}\nTODAY: ${new Date().toISOString().slice(0, 10)}\n\nSEARCH RESULTS:\n${listing || "(none)"}` }] }],
     generationConfig: { temperature: 0, maxOutputTokens: 2048, responseMimeType: "application/json" }
-  }, { signal, deadline });
-  if (!g.ok) return { ok: false, error: g.error };
+  };
 
-  const parsed = parseJsonLoose(responseText(g.data));
+  let g = await generate(body, { signal, deadline });
+  if (!g.ok) return { ok: false, error: g.error };
+  let parsed = parseJsonLoose(responseText(g.data));
+
+  // A checkable claim whose results came back unjudged would also read as
+  // "no sources": ask the next model in the chain once.
+  const unjudged = p => !p || (p.claimType === "checkable" && results.length > 0 && !(p.results || []).length);
+  if (unjudged(parsed)) {
+    const retry = await generate(body, { signal, deadline, skip: [g.model] });
+    const reparsed = retry.ok ? parseJsonLoose(responseText(retry.data)) : null;
+    if (reparsed && !unjudged(reparsed)) { g = retry; parsed = reparsed; }
+  }
   if (!parsed) return { ok: false, error: "Could not parse the evidence response" };
 
   const byN = new Map((parsed.results || []).map(j => [Number(j.n), j]));

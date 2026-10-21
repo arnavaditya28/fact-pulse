@@ -13,6 +13,28 @@ Fact Pulse is a **self-hosted MCP server (spec 2025-11-25, Streamable HTTP)** an
 
 A **simulated Alexa+ experience** (an Echo Show-style web app with real speech in and out) drives the MCP server over JSON-RPC and shows every tool call live.
 
+## Try it live
+
+| | |
+|---|---|
+| Simulator | https://fact-pulse-rho.vercel.app (voice input needs Chrome or Edge; typing works everywhere) |
+| Scripted demo | https://fact-pulse-rho.vercel.app/?demo |
+| MCP endpoint (Streamable HTTP) | `https://fact-pulse-rho.vercel.app/mcp` |
+
+Connect any MCP client to the endpoint:
+
+```bash
+npx @modelcontextprotocol/inspector
+```
+
+Or run the bundled SDK client against it:
+
+```bash
+node scripts/mcp-smoke.js https://fact-pulse-rho.vercel.app/mcp
+```
+
+Hosted on Vercel. The live site is rate-limited to 30 requests per minute per visitor. Check history is kept per server instance, so "what did I check earlier?" can come back empty after Vercel starts a fresh instance; a local run keeps it in `data/checks.json`.
+
 ## What's new in this hackathon
 
 Veridex existed before the submission period (web app, REST API, six scoring rules). Everything in this repo was built during the hackathon:
