@@ -1,0 +1,703 @@
+{
+ "the great wall of china is visible from space with the naked eye": {
+  "savedAt": "2026-10-21T19:05:06.452Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "The Great Wall of China is visible from space with the naked eye.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "NASA",
+     "domain": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/great-wall/",
+     "sourceType": "official",
+     "stance": "contradicts",
+     "finding": "The wall is difficult or impossible to see from Earth orbit without high magnification.",
+     "createdAt": "2009-04-01T18:30:00.000Z",
+     "published": "2009-04-01"
+    },
+    {
+     "publisher": "NIH",
+     "domain": "pmc.ncbi.nlm.nih.gov",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3972694/",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "Human eyes at a single glance cannot see the Great Wall from space.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Wtamu",
+     "domain": "wtamu.edu",
+     "url": "https://www.wtamu.edu/~cbaird/sq/2012/12/11/what-makes-the-great-wall-of-china-the-only-man-made-object-visible-from-space/",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "The Great Wall is not visible to the naked eye from space, according to NASA.",
+     "createdAt": "2012-12-10T18:30:00.000Z",
+     "published": "2012-12-10"
+    },
+    {
+     "publisher": "Britannica",
+     "domain": "britannica.com",
+     "url": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "The claim is a popular myth disproved by astronauts stating it is not visible.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Researchgate",
+     "domain": "researchgate.net",
+     "url": "https://www.researchgate.net/publication/233433650_The_Great_Wall_of_China_can_be_Seen_from_Space",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "Visibility of the Great Wall by naked eye from space is a myth.",
+     "createdAt": "2026-07-15T18:30:00.000Z",
+     "published": "2026-07-15"
+    }
+   ],
+   "unrelatedDropped": 0,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 8
+  }
+ },
+ "humans only use 10 percent of their brains": {
+  "savedAt": "2026-10-21T19:05:10.260Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "Humans only use 10 percent of their brains.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "Nature",
+     "domain": "nature.com",
+     "url": "https://www.nature.com/scitable/blog/mind-read/lucy_is_wrong_we_use/",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "States that humans use way more than 10 percent of their brains.",
+     "createdAt": "2014-07-16T18:30:00.000Z",
+     "published": "2014-07-16"
+    },
+    {
+     "publisher": "Britannica",
+     "domain": "britannica.com",
+     "url": "https://www.britannica.com/story/do-we-really-use-only-10-percent-of-our-brain",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "Shows that far more than 10 percent of the brain is used.",
+     "createdAt": "2026-09-29T18:30:00.000Z",
+     "published": "2026-09-29"
+    },
+    {
+     "publisher": "Psychological Science",
+     "domain": "psychologicalscience.org",
+     "url": "https://www.psychologicalscience.org/uncategorized/myth-we-only-use-10-of-our-brains.html",
+     "sourceType": "media",
+     "stance": "contradicts",
+     "finding": "Categorizes the statement under 'Myth' regarding brain usage.",
+     "createdAt": "2018-08-28T18:30:00.000Z",
+     "published": "2018-08-28"
+    },
+    {
+     "publisher": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Ten-percent-of-the-brain_myth",
+     "sourceType": "user",
+     "stance": "contradicts",
+     "finding": "Explicitly labels the idea as a myth that humans use only 10%.",
+     "createdAt": null,
+     "published": null
+    }
+   ],
+   "unrelatedDropped": 3,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 10
+  }
+ },
+ "indias chandrayaan3 landed near the moons south pole in august 2023": {
+  "savedAt": "2026-10-21T19:05:14.117Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "India's Chandrayaan-3 landed near the Moon's south pole on August 23, 2023.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "ISRO",
+     "domain": "isro.gov.in",
+     "url": "https://www.isro.gov.in/Chandrayaan3.html",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Chandrayaan-3 successfully soft-landed on the moon in August 2023.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "NASA",
+     "domain": "science.nasa.gov",
+     "url": "https://science.nasa.gov/mission/chandrayaan-3/",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Chandrayaan-3 landed near the south pole of the Moon on Aug. 23, 2023.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Nature",
+     "domain": "nature.com",
+     "url": "https://www.nature.com/articles/d44151-023-00116-x",
+     "sourceType": "document",
+     "stance": "supports",
+     "finding": "Chandrayaan-3 landed on the Moon's south pole on August 23, 2023.",
+     "createdAt": "2023-08-22T18:30:00.000Z",
+     "published": "2023-08-22"
+    },
+    {
+     "publisher": "The Conversation",
+     "domain": "theconversation.com",
+     "url": "https://theconversation.com/indias-chandrayaan-3-landed-on-the-south-pole-of-the-moon-a-space-policy-expert-explains-what-this-means-for-india-and-the-global-race-to-the-moon-212171",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Chandrayaan-3 landed near the south pole of the Moon on August 23, 2023.",
+     "createdAt": "2023-08-23T18:30:00.000Z",
+     "published": "2023-08-23"
+    },
+    {
+     "publisher": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Chandrayaan-3",
+     "sourceType": "user",
+     "stance": "supports",
+     "finding": "Chandrayaan-3 touched down near the lunar south pole on August 23, 2023.",
+     "createdAt": null,
+     "published": null
+    }
+   ],
+   "unrelatedDropped": 0,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 8
+  }
+ },
+ "water boils at 100 degrees celsius at sea level": {
+  "savedAt": "2026-10-21T19:05:17.542Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "Water boils at 100 degrees Celsius at standard atmospheric pressure at sea level.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "Compoundchem",
+     "domain": "compoundchem.com",
+     "url": "https://www.compoundchem.com/2016/03/22/boiling-point/",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "At sea level, 100 °C is the temperature at which water boils.",
+     "createdAt": "2016-03-21T18:30:00.000Z",
+     "published": "2016-03-21"
+    },
+    {
+     "publisher": "Study",
+     "domain": "homework.study.com",
+     "url": "https://homework.study.com/explanation/water-boils-at-100-degrees-celsius-at-sea-level-if-water-does-not-boil-at-100-degrees-celsius-what-could-be-the-reason.html",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Water boils at 100 degrees Celsius at sea level.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Testbook",
+     "domain": "testbook.com",
+     "url": "https://testbook.com/question-answer/water-boils-at-100c-at-sea-level-but-95c--61f8d7245e254ad2fa1ce174",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Water boils at 100°C at sea level.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Reddit",
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/askscience/comments/1invtj2/why_does_all_water_choose_to_boil_at_100c_instead/",
+     "sourceType": "user",
+     "stance": "supports",
+     "finding": "All water boils at 100 C at sea level.",
+     "createdAt": "2025-10-21T19:05:16.049Z",
+     "published": "2025-10-21"
+    }
+   ],
+   "unrelatedDropped": 1,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 8
+  }
+ },
+ "the eiffel tower is in berlin": {
+  "savedAt": "2026-10-21T19:05:21.311Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "The Eiffel Tower is located in Berlin.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "Rome2rio",
+     "domain": "rome2rio.com",
+     "url": "https://www.rome2rio.com/s/Berlin/Eiffel-Tower",
+     "sourceType": "media",
+     "stance": "contradicts",
+     "finding": "Provides travel options from Berlin to the Eiffel Tower, implying they are in different places.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+     "sourceType": "user",
+     "stance": "contradicts",
+     "finding": "States the Eiffel Tower is the tallest structure in Paris, not Berlin.",
+     "createdAt": null,
+     "published": null
+    }
+   ],
+   "unrelatedDropped": 7,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 9
+  }
+ },
+ "mount everest is the tallest mountain above sea level": {
+  "savedAt": "2026-10-21T19:05:24.617Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "Mount Everest is the highest mountain above sea level.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "NOAA",
+     "domain": "oceanservice.noaa.gov",
+     "url": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "States Mount Everest's peak is the highest altitude above mean sea level.",
+     "createdAt": "2026-09-22T18:30:00.000Z",
+     "published": "2026-09-22"
+    },
+    {
+     "publisher": "Britannica",
+     "domain": "britannica.com",
+     "url": "https://www.britannica.com/story/is-mount-everest-really-the-tallest-mountain-in-the-world",
+     "sourceType": "document",
+     "stance": "supports",
+     "finding": "Confirms Everest has the greatest elevation above sea level.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "National Geographic",
+     "domain": "education.nationalgeographic.org",
+     "url": "https://education.nationalgeographic.org/resource/mount-everest/",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "States Everest is considered the highest point on Earth at 8,850 meters.",
+     "createdAt": "2026-09-14T18:30:00.000Z",
+     "published": "2026-09-14"
+    },
+    {
+     "publisher": "Science Focus",
+     "domain": "sciencefocus.com",
+     "url": "https://www.sciencefocus.com/planet-earth/what-is-the-tallest-mountain-in-the-world",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Explicitly states Everest is the world's tallest mountain above sea level.",
+     "createdAt": "2023-06-30T18:30:00.000Z",
+     "published": "2023-06-30"
+    },
+    {
+     "publisher": "Facebook",
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/SimonGerman600/posts/mount-everest-only-is-the-highest-mountain-when-we-count-from-sea-level-we-could/1672895370865831/",
+     "sourceType": "user",
+     "stance": "supports",
+     "finding": "Notes Everest is indeed the highest mountain when measured from sea level.",
+     "createdAt": "2026-08-22T19:05:23.085Z",
+     "published": "2026-08-22"
+    }
+   ],
+   "unrelatedDropped": 3,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 8
+  }
+ },
+ "india won the 2024 t20 cricket world cup": {
+  "savedAt": "2026-10-21T19:05:28.641Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "India won the 2024 T20 cricket World Cup",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "ICC",
+     "domain": "icc-cricket.com",
+     "url": "https://www.icc-cricket.com/tournaments/t20cricketworldcup",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Reports India returning home following their T20 World Cup triumph.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Cricbuzz",
+     "domain": "cricbuzz.com",
+     "url": "https://www.cricbuzz.com/cricket-series/7476/icc-mens-t20-world-cup-2024",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "References India's World Cup win and player retirements following the tournament.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Wikipedia",
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/2024_Men%27s_T20_World_Cup",
+     "sourceType": "user",
+     "stance": "supports",
+     "finding": "States India won their second T20 World Cup by defeating South Africa.",
+     "createdAt": null,
+     "published": null
+    }
+   ],
+   "unrelatedDropped": 1,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 6
+  }
+ },
+ "drinking eight glasses of water a day is medically required for everyone": {
+  "savedAt": "2026-10-21T19:05:32.116Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "Drinking eight glasses of water a day is medically required for everyone",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "Rochester",
+     "domain": "urmc.rochester.edu",
+     "url": "https://www.urmc.rochester.edu/news/publications/health-matters/how-much-water-should-you-drink",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "Debunks the 8 glasses myth, stating hydration needs vary based on individual factors.",
+     "createdAt": "2026-07-12T18:30:00.000Z",
+     "published": "2026-07-12"
+    },
+    {
+     "publisher": "Mayo Clinic",
+     "domain": "mayoclinic.org",
+     "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "States there is no easy answer to how much water to drink daily.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "NIH",
+     "domain": "pubmed.ncbi.nlm.nih.gov",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24685756/",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "States the saying has had little supporting evidence.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Michigan Medicine",
+     "domain": "michiganmedicine.org",
+     "url": "https://www.michiganmedicine.org/health-lab/myth-busting-no-more-8-glasses-day",
+     "sourceType": "media",
+     "stance": "contradicts",
+     "finding": "States there is no medical evidence that drinking eight glasses a day is beneficial.",
+     "createdAt": "2016-05-04T18:30:00.000Z",
+     "published": "2016-05-04"
+    },
+    {
+     "publisher": "Atlantichealth",
+     "domain": "atlantichealth.org",
+     "url": "https://www.atlantichealth.org/health-articles/healthy-living/drinking-too-much-water",
+     "sourceType": "media",
+     "stance": "contradicts",
+     "finding": "Questions the need for eight glasses a day and warns against excessive intake.",
+     "createdAt": "2025-01-26T18:30:00.000Z",
+     "published": "2025-01-26"
+    }
+   ],
+   "unrelatedDropped": 2,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 10
+  }
+ },
+ "the reserve bank of india sets the repo rate": {
+  "savedAt": "2026-10-21T19:05:37.245Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "The Reserve Bank of India sets the repo rate",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "M",
+     "domain": "m.rbi.org.in",
+     "url": "https://m.rbi.org.in/scripts/fs_overview.aspx?fn=2752",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Defines the repo rate provided by the Reserve Bank.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "IES",
+     "domain": "ies.gov.in",
+     "url": "https://ies.gov.in/arthapedia/concept/monetary-policy-committee-mpc",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Outlines the RBI's responsibilities under the monetary policy framework.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Reuters",
+     "domain": "reuters.com",
+     "url": "https://www.reuters.com/world/india/indian-central-bank-holds-rates-expected-taking-comfort-still-modest-inflation-2026-08-05/",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Mentions the Reserve Bank of India's benchmark repo rate.",
+     "createdAt": "2026-08-04T18:30:00.000Z",
+     "published": "2026-08-04"
+    },
+    {
+     "publisher": "Trading Economics",
+     "domain": "tradingeconomics.com",
+     "url": "https://tradingeconomics.com/india/interest-rate",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "States the RBI raised its key repo rate.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "DD India",
+     "domain": "ddindia.co.in",
+     "url": "https://ddindia.co.in/2026/10/rbi-set-to-announce-repo-rate-decision-amid-geopolitical-tensions/",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Mentions the central bank keeping the repo rate unchanged.",
+     "createdAt": "2026-10-06T18:30:00.000Z",
+     "published": "2026-10-06"
+    }
+   ],
+   "unrelatedDropped": 0,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 10
+  }
+ },
+ "bananas are slightly radioactive": {
+  "savedAt": "2026-10-21T19:05:40.284Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "Bananas are slightly radioactive.",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "EPA",
+     "domain": "epa.gov",
+     "url": "https://www.epa.gov/radtown/natural-radioactivity-food",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Bananas contain potassium, and a small fraction of potassium is radioactive.",
+     "createdAt": "2026-07-08T18:30:00.000Z",
+     "published": "2026-07-08"
+    },
+    {
+     "publisher": "Energy",
+     "domain": "energy.gov",
+     "url": "https://www.energy.gov/ne/articles/5-radioactive-products-we-use-every-day",
+     "sourceType": "official",
+     "stance": "supports",
+     "finding": "Bananas are slightly radioactive due to naturally occurring radionuclides like potassium-40.",
+     "createdAt": "2023-09-11T18:30:00.000Z",
+     "published": "2023-09-11"
+    },
+    {
+     "publisher": "Britannica",
+     "domain": "britannica.com",
+     "url": "https://www.britannica.com/science/Are-Bananas-Radioactive",
+     "sourceType": "document",
+     "stance": "supports",
+     "finding": "Every banana contains a tiny amount of radioactive potassium-40.",
+     "createdAt": "2026-09-20T18:30:00.000Z",
+     "published": "2026-09-20"
+    },
+    {
+     "publisher": "Mcgill",
+     "domain": "mcgill.ca",
+     "url": "https://www.mcgill.ca/oss/article/you-asked/it-true-banana-radioactive",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Confirmed that bananas are indeed radioactive.",
+     "createdAt": "2018-03-14T18:30:00.000Z",
+     "published": "2018-03-14"
+    },
+    {
+     "publisher": "Mirion",
+     "domain": "mirion.com",
+     "url": "https://www.mirion.com/discover/knowledge-hub/articles/education/naturally-occurring-radiation-norm",
+     "sourceType": "media",
+     "stance": "supports",
+     "finding": "Bananas have a high amount of potassium-40, a radioactive isotope.",
+     "createdAt": null,
+     "published": null
+    }
+   ],
+   "unrelatedDropped": 1,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 9
+  }
+ },
+ "5g towers spread covid19": {
+  "savedAt": "2026-10-21T19:05:44.361Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "5G towers spread COVID-19",
+   "reasonIfNotCheckable": "",
+   "sources": [
+    {
+     "publisher": "Congress",
+     "domain": "congress.gov",
+     "url": "https://www.congress.gov/118/meeting/house/116272/documents/HHRG-118-JU00-20230726-SD009.pdf",
+     "sourceType": "official",
+     "stance": "contradicts",
+     "finding": "Describes the idea that 5G spreads the coronavirus as a baseless fear and conspiracy theory.",
+     "createdAt": "2023-07-25T18:30:00.000Z",
+     "published": "2023-07-25"
+    },
+    {
+     "publisher": "Unicef",
+     "domain": "unicef.org",
+     "url": "https://www.unicef.org/montenegro/en/stories/5g-technology-does-not-cause-or-spread-coronavirus",
+     "sourceType": "official",
+     "stance": "contradicts",
+     "finding": "Explicitly states that 5G technology does not cause or spread coronavirus.",
+     "createdAt": "2021-07-11T18:30:00.000Z",
+     "published": "2021-07-11"
+    },
+    {
+     "publisher": "Latrobe",
+     "domain": "latrobe.edu.au",
+     "url": "https://www.latrobe.edu.au/news/articles/2020/opinion/5g-and-covid-19-conspiracy-theories",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "States that 5G radiation does not cause or spread the coronavirus.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "Sciencedirect",
+     "domain": "sciencedirect.com",
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0277953621008789",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "Identifies the link between COVID-19 cases and 5G towers as a conspiracy theory.",
+     "createdAt": null,
+     "published": null
+    },
+    {
+     "publisher": "BU",
+     "domain": "bu.edu",
+     "url": "https://www.bu.edu/sph/news/articles/2021/5g-doesnt-cause-covid-19-but-myth-went-viral/",
+     "sourceType": "document",
+     "stance": "contradicts",
+     "finding": "States directly that 5G does not cause COVID-19.",
+     "createdAt": "2021-01-12T18:30:00.000Z",
+     "published": "2021-01-12"
+    }
+   ],
+   "unrelatedDropped": 1,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 9
+  }
+ },
+ "a local bakery in vellore gave away free cakes to everyone last tuesday": {
+  "savedAt": "2026-10-21T19:05:48.132Z",
+  "research": {
+   "ok": true,
+   "claimType": "checkable",
+   "restatedClaim": "A local bakery in Vellore gave away free cakes to everyone last Tuesday",
+   "reasonIfNotCheckable": "",
+   "sources": [],
+   "unrelatedDropped": 7,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 7
+  }
+ },
+ "pineapple is the best pizza topping": {
+  "savedAt": "2026-10-21T19:05:51.567Z",
+  "research": {
+   "ok": true,
+   "claimType": "opinion",
+   "restatedClaim": "Pineapple is the best pizza topping.",
+   "reasonIfNotCheckable": "It expresses a subjective value judgment and personal preference.",
+   "sources": [],
+   "unrelatedDropped": 8,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 9
+  }
+ },
+ "india will win the next football world cup": {
+  "savedAt": "2026-10-21T19:05:54.811Z",
+  "research": {
+   "ok": true,
+   "claimType": "prediction",
+   "restatedClaim": "India will win the next football World Cup",
+   "reasonIfNotCheckable": "It is a statement about a future event.",
+   "sources": [],
+   "unrelatedDropped": 9,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 9
+  }
+ },
+ "they are hiding the truth about it": {
+  "savedAt": "2026-10-21T19:05:57.604Z",
+  "research": {
+   "ok": true,
+   "claimType": "vague",
+   "restatedClaim": "Someone is hiding the truth about something.",
+   "reasonIfNotCheckable": "The statement does not specify who 'they' are or what 'it' refers to.",
+   "sources": [],
+   "unrelatedDropped": 9,
+   "provider": "serper",
+   "model": "gemini-3.5-flash-lite",
+   "searched": 9
+  }
+ }
+}

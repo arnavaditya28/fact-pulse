@@ -1,0 +1,17 @@
+[
+  { "claim": "Is it true that the Great Wall of China is visible from space with the naked eye?", "expect": "low", "why": "classic myth, official sources contradict" },
+  { "claim": "Humans only use 10 percent of their brains", "expect": "low", "why": "myth, research contradicts" },
+  { "claim": "India's Chandrayaan-3 landed near the Moon's south pole in August 2023", "expect": "high", "why": "official ISRO + wide news coverage" },
+  { "claim": "Water boils at 100 degrees Celsius at sea level", "expect": "high", "why": "settled science" },
+  { "claim": "The Eiffel Tower is in Berlin", "expect": "low", "why": "plainly false" },
+  { "claim": "Mount Everest is the tallest mountain above sea level", "expect": "high", "why": "settled fact" },
+  { "claim": "India won the 2024 T20 cricket World Cup", "expect": "high", "why": "news + official ICC" },
+  { "claim": "Drinking eight glasses of water a day is medically required for everyone", "expect": "low_or_mixed", "why": "popular advice, weak evidence" },
+  { "claim": "The Reserve Bank of India sets the repo rate", "expect": "high", "why": "official RBI source" },
+  { "claim": "Bananas are slightly radioactive", "expect": "moderate_or_high", "why": "true but niche; science media" },
+  { "claim": "5G towers spread COVID-19", "expect": "low", "why": "debunked conspiracy" },
+  { "claim": "A local bakery in Vellore gave away free cakes to everyone last Tuesday", "expect": "no_sources", "why": "obscure, nothing to find" },
+  { "claim": "Pineapple is the best pizza topping", "expect": "opinion", "why": "not checkable" },
+  { "claim": "India will win the next football World Cup", "expect": "prediction", "why": "future event" },
+  { "claim": "They are hiding the truth about it", "expect": "vague", "why": "no subject" }
+]
