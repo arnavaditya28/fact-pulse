@@ -1,5 +1,7 @@
 # Fact Pulse
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/arnavaditya28-fact-pulse-167ks7?v=184b1f73093af5a7e81f223a23e346fd)](https://m8ven.ai/mcp/arnavaditya28-fact-pulse-167ks7?s=readme)
+
 **Ask Alexa+ whether something you heard is true, and get a score you can trust, out loud.**
 
 > "Alexa, is it true that the Great Wall of China is visible from space?"
